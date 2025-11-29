@@ -1,0 +1,6 @@
+# Placeholder for benchmark results
+# JSON and CSV result files will be stored here
+
+*.json
+*.csv
+!.gitkeep
