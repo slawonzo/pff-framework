@@ -54,8 +54,8 @@ extras_require["all"] = list(set(sum(extras_require.values(), [])))
 setup(
     name="pff-framework",
     version="0.1.0",
-    author="slawonzo",
-    author_email="your.email@example.com",
+    author="Slawomir Folwarski",
+    author_email="slawonzo@gmail.com",
     description="Prime Factorization Frequency (PFF) benchmarking framework for quantum and classical algorithms",
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -6,7 +6,7 @@ factorization algorithms using the PFF metric.
 """
 
 __version__ = "0.1.0"
-__author__ = "slawonzo"
+__author__ = "Slawomir Folwarski"
 
 from pff.core.algorithm import FactorizationAlgorithm
 from pff.core.result import BenchmarkResult, PFFResult
