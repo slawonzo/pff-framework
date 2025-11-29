@@ -74,3 +74,6 @@ Thumbs.db
 # Local artifacts
 pff_result.json
 *.log
+
+# Project metadata
+CREATION_SUMMARY.md
