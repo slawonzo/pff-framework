@@ -108,7 +108,7 @@ pff-framework/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/pff-framework.git
+git clone https://github.com/slawonzo/pff-framework.git
 cd pff-framework
 
 # Install in development mode
@@ -192,7 +192,7 @@ for size, pff in results.items():
 
 ## Contributing
 
-We welcome contributions! This framework is designed to be extensible. See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for:
+We welcome contributions! This framework is designed to be extensible. See [CONTRIBUTING.md](CONTRIBUTING.md) for:
 - How to add new algorithms
 - Plugin development guide
 - Testing requirements
@@ -205,9 +205,9 @@ If you use this framework in your research, please cite:
 ```bibtex
 @software{pff_framework,
   title={PFF Framework: Prime Factorization Frequency Calculator},
-  author={Your Name},
+  author={slawonzo},
   year={2025},
-  url={https://github.com/yourusername/pff-framework}
+  url={https://github.com/slawonzo/pff-framework}
 }
 ```
 
@@ -222,11 +222,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [x] Classical factorization baseline
 - [x] REST API (FastAPI)
 - [x] Web dashboard (Streamlit)
-- [ ] IBM Quantum hardware backend support
+- [x] IBM Quantum hardware backend support
+- [x] Multi-backend comparison tools
 - [ ] QAOA-based factorization
 - [ ] Variational quantum algorithms
 - [ ] Advanced statistical analysis
-- [ ] Multi-backend comparison tools
 - [ ] Distributed benchmarking
 
 ## Support
