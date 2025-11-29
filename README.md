@@ -35,32 +35,32 @@ Where:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    Frontend (Streamlit)                      │
-│  - Interactive UI for configuration                          │
-│  - Real-time PFF metrics visualization                       │
-│  - Scaling charts and performance analysis                   │
+│                    Frontend (Streamlit)                     │
+│  - Interactive UI for configuration                         │
+│  - Real-time PFF metrics visualization                      │
+│  - Scaling charts and performance analysis                  │
 └────────────────────┬────────────────────────────────────────┘
                      │ HTTP/REST
 ┌────────────────────▼────────────────────────────────────────┐
-│                   Backend API (FastAPI)                      │
-│  - POST /calculate-pff                                       │
-│  - GET /algorithms                                           │
-│  - GET /results/{id}                                         │
+│                   Backend API (FastAPI)                     │
+│  - POST /calculate-pff                                      │
+│  - GET /algorithms                                          │
+│  - GET /results/{id}                                        │
 └────────────────────┬────────────────────────────────────────┘
                      │
 ┌────────────────────▼────────────────────────────────────────┐
-│                  PFF Engine (Core Framework)                 │
+│                  PFF Engine (Core Framework)                │
 │  ┌──────────────────────────────────────────────────────┐   │
 │  │  Plugin System                                       │   │
-│  │  - Shor's Algorithm (Qiskit)                        │   │
-│  │  - Classical Factorization                          │   │
-│  │  - [Future: QAOA, Variational Algorithms]          │   │
+│  │  - Shor's Algorithm (Qiskit)                         │   │
+│  │  - Classical Factorization                           │   │
+│  │  - [Future: QAOA, Variational Algorithms]            │   │
 │  └──────────────────────────────────────────────────────┘   │
 │  ┌──────────────────────────────────────────────────────┐   │
 │  │  Benchmarking Engine                                 │   │
-│  │  - Random semiprime generation                      │   │
-│  │  - High-resolution timing                           │   │
-│  │  - Statistical analysis                             │   │
+│  │  - Random semiprime generation                       │   │
+│  │  - High-resolution timing                            │   │
+│  │  - Statistical analysis                              │   │
 │  └──────────────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -205,7 +205,7 @@ If you use this framework in your research, please cite:
 ```bibtex
 @software{pff_framework,
   title={PFF Framework: Prime Factorization Frequency Calculator},
-  author={slawonzo},
+  author={Sławomir Folwarski},
   year={2025},
   url={https://github.com/slawonzo/pff-framework}
 }
